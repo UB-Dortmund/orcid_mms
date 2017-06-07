@@ -342,6 +342,8 @@ def mms2orcid(affiliation='', mms_records=None):
 
                 if host.get('volume') != '':
                     bibtex_entry.setdefault('volume', host.get('volume'))
+                else:
+                    bibtex_entry.setdefault('volume', '')
 
             if bibtex_entry:
                 db.entries.append(bibtex_entry)
