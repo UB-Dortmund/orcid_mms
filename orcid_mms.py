@@ -350,7 +350,7 @@ def mms2orcid(affiliation='', mms_records=None):
 
             citation = {}
             citation.setdefault('citation-type', 'BIBTEX')
-            citation.setdefault('citation', bibtexparser.dumps(db))
+            citation.setdefault('citation-value', bibtexparser.dumps(db))
             orcid_record.setdefault('citation', citation)
 
             orcid_records.append(orcid_record)
