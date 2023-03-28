@@ -1,3 +1,6 @@
+**HINT: This project is out of date and internally not relevant anymore!**
+
+
 # ORCID to/from MMS JSON transformer
 
 This code transforms the JSON serialization of the ORCID API data to the JSON representation of the entity collection in the Metadata Management System (MMS).\
